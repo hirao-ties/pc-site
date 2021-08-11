@@ -25,6 +25,10 @@ img.logo {
   margin-left: 20px;
 }
 
+.global_navi__item:first-child {
+  margin-left: 0;
+}
+
 .main_visual {
   padding-top: 70px;
 }
@@ -69,13 +73,15 @@ img.logo {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: -15px 0px 0px;
+}
+
+.production_list li:nth-child(n + 4) {
+  margin-top: 15px;
 }
 
 .production_item {
   width: 210px;
   height: 140px;
-  margin: 15px 0px 0px;
 }
 
 .self_introduction {
